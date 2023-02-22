@@ -12,11 +12,7 @@ menu_buttons = ReplyKeyboardMarkup(
        [
             KeyboardButton(text="telefon raqam",request_contact=True),
             KeyboardButton(text="mening manzilim",request_location=True)
-       ],
-       [
-            KeyboardButton(text="ichimliklar"),
-            KeyboardButton(text="shirinliklar")
-        ]
+       ]
     ],
     resize_keyboard=True
 )
