@@ -1,1 +1,1 @@
-from . import tillar_uchun
+#from . import tillar_uchun
