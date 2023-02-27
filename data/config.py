@@ -10,4 +10,4 @@ ADMINS = env.list("ADMINS")  # adminlar ro'yxati
 IP = env.str("ip")  # Xosting ip manzili
 
 
-kanallar = ["@dasturlash_boylab","@dasturlash_life"]
+kanallar = ["@dasturlash_boylab","@Rasmlar_moshinalar"]
