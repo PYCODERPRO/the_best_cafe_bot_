@@ -4,18 +4,18 @@ eng_menu_buttons = ReplyKeyboardMarkup(
     keyboard=[
        [
            KeyboardButton(text="national dishes"),
-           KeyboardButton(text="fast foods")
+           KeyboardButton(text="fast food🍟")
        ],
        [
-           KeyboardButton(text="Admin")
+           KeyboardButton(text="Contact admin👨🏻‍💻")
        ],
        [
-            KeyboardButton(text=" my number",request_contact=True),
-            KeyboardButton(text="my location",request_location=True)
+            KeyboardButton(text=" my number📞",request_contact=True),
+            KeyboardButton(text="my location📍",request_location=True)
        ],
        [
-            KeyboardButton(text="drinks"),
-            KeyboardButton(text="sweets")
+            KeyboardButton(text="Drinks"),
+            KeyboardButton(text="Sweets")
         ]
     ],
     resize_keyboard=True

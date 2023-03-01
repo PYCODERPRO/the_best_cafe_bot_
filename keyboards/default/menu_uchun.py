@@ -10,8 +10,8 @@ menu_buttons = ReplyKeyboardMarkup(
            KeyboardButton(text="Adminga murojaat")
        ],
        [
-            KeyboardButton(text="telefon raqam",request_contact=True),
-            KeyboardButton(text="mening manzilim",request_location=True)
+            # KeyboardButton(text="telefon raqam",request_contact=True),
+            # KeyboardButton(text="mening manzilim",request_location=True)
        ],
        [
             KeyboardButton(text="ichimliklar"),

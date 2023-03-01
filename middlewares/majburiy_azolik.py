@@ -31,6 +31,7 @@ class Asosiy_checking(BaseMiddleware):
                 royxat.append(button)
         royxat.append([InlineKeyboardButton(text="Tekshirish",callback_data="www")])
         if not daslabki_holati:
-            await bot.send_message(chat_id=user_id,text=matn,disable_web_page_preview=True,
+            await bot.send_message(chat_id=xabar.message.chat.id,text=matn,disable_web_page_preview=True,
                                    reply_markup=InlineKeyboardMarkup(inline_keyboard=royxat))
+            await bot.ban_chat_sender_chat(chat_id=xabar.message.chat.id,sender_chat_id=xabar.message.from_user.id)
             raise CancelHandler()
